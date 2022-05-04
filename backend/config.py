@@ -1,7 +1,7 @@
 from flask import Flask
 from decouple import config
 
-CONFIG_URI = f"postgresql://{config('DB_USER')}:{config('DB_PASSWORD')}@localhost:5432/{config('DB_NAME')}"
+CONFIG_URI = f"postgresql://{config('DB_USER')}:{config('DB_PASSWORD')}@database:5432/{config('DB_NAME')}"
 
 app = Flask(__name__)
 app.config["SECRET_KEY"] = config("SECRET_KEY")
