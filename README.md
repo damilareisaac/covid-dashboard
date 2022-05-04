@@ -10,13 +10,13 @@ This should build a container image using docker
 
 available on ### `localhost`
 
-Alternatively, you can run:
+Alternatively:
+
+change directory to backend from terminal
+change database in CONFIG_URI to localhost
+Then run to start the flask server
 
 ### `python -m flask run --debugger --reload`
-
-in backend directory
-
-and
 
 ### `npm install` and `npm start`
 
