@@ -1,0 +1,9 @@
+flask
+flask-sqlalchemy
+flask-admin
+gunicorn
+pandas
+python-decouple
+python-dotenv
+psycopg2
+flask-cors
